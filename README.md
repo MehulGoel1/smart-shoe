@@ -1,2 +1,10 @@
 # smart-shoe
-It is an always-on electronic device that comprises a 3D accelerometer, a 3D gyroscope and resistive pressure sensors implemented around a CC2540 system-on-chip with an 8051 processor core, Bluetooth low energy (BLE) connectivity and flash memory buffer which is wirelessly interfaced to an Android smart phone application with data logging and visualization capabilities. It focuses on low power consumption implementation.
+
+
+Implemented by putting an on-board Arduino interfaced with an accelerometer, GPS module and a bluetooth module. Data collected from sensors was sent serially via bluetooth to an Android app.
+
+Android app features included:
+- Step counter
+- Live GPS location
+- Activity graph throughout the day
+
